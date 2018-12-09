@@ -1,0 +1,7 @@
+import { createStore } from "redux";
+
+import reducers from "../Reduser";
+
+export default createStore(
+	reducers
+);

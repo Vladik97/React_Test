@@ -1,14 +1,88 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+li{
+	list-style: none;
+}
+.header {
+  background-color: #5F9EA0;
+  display: flex;
+}
+.logo{
+	width: 25%;
+}
+.btnmenu{
+	width: 50%; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.btnsmenu{
+	width: 20%;
+	background-color: #7B68EE;
+}
+.a{
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7B68EE;
+  padding: 10px;
+  color: white;
+  border-radius: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #DAA520;
+}
+.a:link{
+  text-decoration: none;
+  color: white;
+}
+.a:visited{
+  text-decoration: none;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.login{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.loginform{
+	width: 50%;
+	margin: 5px;
+}
+.batani{
+	display: flex;
+	justify-content: space-around;	
+}
+.cr{
+	text-align: center;
+}
+.alltestbtn{
+	/*background-color: red;*/
+	width: 50%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.inputQuestion{
+	width: 50%;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+
+	
+}
+.margin{
+	margin: 0 auto;
+}
+.margin1{
+	text-align: center;
+	margin: 50px auto;
 }
